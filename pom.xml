@@ -67,6 +67,11 @@
 				<enabled>false</enabled>
 			</releases>
 		</repository>
+			<repository>
+				<id>central</id>
+				<!-- Use HTTPS URL -->
+				<url>https://repo.maven.apache.org/maven2</url>
+			</repository>
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
